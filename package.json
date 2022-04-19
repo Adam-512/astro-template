@@ -10,9 +10,11 @@
   },
   "devDependencies": {
     "@astrojs/preact": "^0.1.1",
+    "@astrojs/vue": "^0.1.1",
     "astro": "^1.0.0-beta.8",
     "preact": "^10.6.5",
-    "rollup-plugin-polyfill-node": "^0.9.0"
+    "rollup-plugin-polyfill-node": "^0.9.0",
+    "vue": "^3.2.30"
   },
   "dependencies": {
     "@walletconnect/web3-provider": "^1.7.7",

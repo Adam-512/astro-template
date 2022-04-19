@@ -1,11 +1,11 @@
 ---
 import HomeLayout from '../layouts/HomeLayout.astro'
-import {WalletConnect} from '../components/client/wallet/WalletConnect'
+import ConnectBtn from '../components/wallet/ConnectBtn.vue'
 let title = 'My Astro Site';
 const content = {
 	title
 }
 ---
 <HomeLayout content={content}>
-	<WalletConnect client:only />
+	<ConnectBtn client:only />
 </HomeLayout>
